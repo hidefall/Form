@@ -1,0 +1,87 @@
+
+.ba-container{	
+	width: 450px;
+	margin: 0 auto;
+	
+}
+.ba-contact-us{
+	background: #9c597a;
+	padding: 100px 100px;
+}
+.ba-form{
+	padding: 40px;
+	background: #fff;
+
+}
+.ba-form__title{
+	display: block;
+	width: 100%;
+	margin-bottom: 35px;
+	font-size: 20px;
+	color: #718c86;
+}
+.ba-form__field{
+	display: block;
+	width: 100%;
+	margin-top: 10px;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #cccfd1;
+	resize: vertical;
+}
+.ba-form__field--small{
+	width: auto;
+}
+.ba-form__btn{
+	padding: 16px 36px;
+	text-transform: uppercase;
+	border-radius: 5px;
+	background: #6b867f;
+	color: #fff;
+	border: 2px solid #6b867f ;
+	cursor: pointer;
+	transition: .3s ease-in;
+	transition-property: color, background;
+}
+.ba-form__btn:hover{
+	color: #6b867f ;
+	background: #fff;
+}
+
+input:-moz-placeholder {
+    text-indent: 0;
+    transition: text-indent .2s ease-in-out;
+}
+input::-moz-placeholder {
+    text-indent: 0;
+    transition: text-indent .2s ease-in-out;
+}
+input[type=text]:-ms-input-placeholder {
+    text-indent: 0;
+    transition: text-indent .2s ease-in-out;
+}
+input::-webkit-input-placeholder {
+    text-indent: 0;
+    transition: text-indent .2s ease-in-out;
+}
+
+input:focus:-moz-placeholder {
+    text-indent: 100%;
+}
+input:focus::-moz-placeholder {
+    text-indent: 100%;
+}
+input:focus:-ms-input-placeholder {
+    text-indent: 100%;
+}
+input:focus::-webkit-input-placeholder {
+    text-indent: 100%;
+}
+
+input:invalid{
+	border-color: red;
+}
+
+input:valid{
+	border-color: green;
+}
